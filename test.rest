@@ -1,0 +1,11 @@
+POST http://forms.dojo/forms/create
+content-type: application/json
+Cookie: XSRF-TOKEN=eyJpdiI6IlZ5N2N3ekN6c1FMbE5VUGxMRmNpQUE9PSIsInZhbHVlIjoiSThORUVYalNBNUVmSVVTV3N2ZVRoUjByVUxyWkNXaVJlVGlDTlFIRzVXRlFnTFczL2VLVE5lMG5GL2NBWjM4TSIsIm1hYyI6ImE2NDNkMWUzNzVjYzBkYjViMTg4ODgxODM1ZjI0Y2FiMThkNzNkMTM4ODVhYzRiNTA1NmJlNmQzMzBhZjExODEifQ%3D%3D; forms_session=eyJpdiI6ImhQT3lxaWNjYzM3V3pLVWdkaXJRdlE9PSIsInZhbHVlIjoiZ0tycC9oZC9Gclo0S1BzRDFKbzVTVWhzanE3eml0bkJnVVJmRGZBeENTRzVjT1V3K3k2WkJra0lCMTFjeGFRdiIsIm1hYyI6ImViN2I5YzkzNTU4ZDg4NzE0MTE5NjBhOGY2OTkyZTIwZTAyZWRiMGU5ODQ2YWE4N2QyZTBjZTA2YTc5ZjI4OGQifQ%3D%3D
+{
+    "name": "New Form",
+    "types_forms_id": 1,
+    "code": "NF",
+    "status": 1,
+    "reg_del": 1,
+    "user_mod":"rest_vsc"
+}
